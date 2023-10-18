@@ -1,0 +1,37 @@
+{
+   "author": "Abhishek Satre",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+         "16": "images/icon_16.png",
+         "32": "images/icon_128.png"
+      }
+   },
+   "description": "Inject your Javascript into the webpage",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmklatuD+TSkymKc01uSYkU6vW/2109VtaB+e7jUEGWijYc/VYSs8AI9XdtffaNJ3Z6BrPRBQp4vvPDTcVCthvnVEH3J3GZ/DLxJCvzxqFljIPorITpLqBfBbpHFN4dFqwRIg8qf8kxhPuUITXXplJdbkZvofwheQDF6MrbD5zNp38P/08piVldpDENiTrx9RzdFfAg3fzGV0qeQkErrHY746WJs1ZOuxcIu1tOvFQwCqBEeGLhOsPmKXUhregKTcDToG4skAe1drfIUt/eAzJvPC5OOU/5JnVGHihz6iZSh8TKJiLrWS5NFZfailycVqnzoP95/qn4Ut9Q8kioAVpQIDAQAB",
+   "manifest_version": 3,
+   "name": "Scripty - Javascript Injector",
+   "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting",
+      "storage",
+      "unlimitedStorage",
+      "webNavigation",
+      "contextMenus"
+   ],
+   "host_permissions": [
+     "<all_urls>"
+   ],
+   "short_name": "Scripty",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.2",
+   "web_accessible_resources": [  ]
+}
